@@ -1,0 +1,136 @@
+/*全局配置*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: auto;
+    font-family: "Microsoft Yahei", "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+/*头部css效果*/
+
+
+.header .header-left{
+    float: right;
+    padding-top: 22px;
+    padding-right: 18px;
+    min-width: 420px;
+}
+.header .header-left .header-left-a a{
+    padding-right: 16px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.header .header-left .header-left-a .more{
+    padding: 6px 4px;
+}
+.header-left-a .a:link,.header-left-a .a:visited{
+    color: #000;
+}
+.header-left-a .a:hover,.header-left-a .a:active{
+    color: blue;
+}
+.header-left-a .login:link,.header-left-a .login:visited{
+    color: #000;
+}
+.header-left-a .login:hover,.header-left-a .login:active{
+    color: blue;
+}
+.more:link,.more:visited{
+    background-color: dodgerblue;
+    color: white;
+    text-decoration: none;
+}
+.more:hover,.more:active{
+    background-color: white;
+    color: black;
+}
+
+
+
+
+/*内容部分css效果*/
+
+
+.content{
+    padding-top: 60px;
+    width: 100%;
+    height: auto;
+}
+.content .content-picture{
+    text-align: center;
+}
+.content-form{
+    text-align: center;
+    padding-top: 23px;
+    position: absolute;
+    left: 50%;
+    margin-left: -319px;
+    font-size: 20px;
+    min-width: 647px;
+    height: 38px;
+}
+.content-form .text{
+    width: 540px;
+    height: 35px;
+    padding-left: 7px;
+    border: 1px solid darkgray;
+    float: left;
+}
+.content-form .button{
+    width: 98px;
+    height: 37px;
+    background-color: #3385ff;
+    color: white;
+    cursor: pointer;
+    border: 1px;
+    letter-spacing: 1px;
+    float: left;
+
+}
+.button:hover{
+    background-color: #317ef3;
+}
+.text:hover{
+    border-color: grey;
+}
+.text:focus{
+    outline: none;
+    border: 1px solid #4169e1;
+}
+
+/*尾部css样式*/
+
+
+.footer{
+    position: absolute;
+    bottom: 40px;
+    min-width: 328px;
+    left: 50%;
+    margin-left: -164px;
+}
+.footer .footer-a{
+    text-align: center;
+    font-size: 12px;
+}
+.footer .footer-a a{
+    padding-right: 15px;
+    color: blue;
+}
+.foot-copyright{
+    font-size: 13px;
+    text-align: center;
+    color: gray;
+    margin-top: 11px;
+}
+.foot-copyright .copyright a{
+    color: gray;
+}
+
+
+.nav,[class^="icon-"], [class*=" icon-"],.microphone,.card{
+    display: none;
+}

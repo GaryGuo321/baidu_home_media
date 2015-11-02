@@ -1,0 +1,455 @@
+@font-face{
+    font-family: 'icomoon';
+    src:url('fonts/icomoon.eot?vqn8ct');
+    src:url('fonts/icomoon.eot?#iefixvqn8ct') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?vqn8ct') format('truetype'),
+    url('fonts/icomoon.woff?vqn8ct') format('woff'),
+    url('fonts/icomoon.svg?vqn8ct#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"]
+{
+    font-family: "icomoon";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-newspaper:before {
+    content: "\e601";
+}
+
+.icon-paint-format:before {
+    content: "\e602";
+}
+.icon-camera:before {
+    content: "\e607";
+}
+.icon-play:before {
+    content: "\e603";
+}
+.icon-mic:before {
+    content: "\e608";
+}
+.icon-book:before {
+    content: "\e604";
+}
+.icon-location2:before {
+    content: "\e605";
+}
+.icon-user:before {
+    content: "\e600";
+}
+.icon-cog:before {
+    content: "\e609";
+}
+.icon-circle-down:before {
+    content: "\e606";
+}
+
+
+
+
+
+
+/*全局样式*/
+
+body,div,p,input,img,a{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Microsoft Yahei", "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+.header-left-a .a,.footer-a,.b{
+    display: none;
+}
+
+
+/*头部样式*/
+
+.header .header-left{
+    font-size: 1.5rem;
+    float: right;
+}
+.header-left-a{
+    margin-top: 1.5rem;
+    margin-right: 0.8rem;
+}
+.header-left-a a{
+    text-decoration: none;
+    color: #3f3f3f;
+    padding-right: 1.5rem;
+}
+
+/*中间图片加搜索框样式*/
+
+.content{
+    clear: both;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+.content-picture{
+    width: 27rem;
+    height: 12.9rem;
+    margin: 0 auto;
+}
+.content-picture img{
+    width: 27rem;
+    height: 12.9rem;
+}
+.content-form{
+    width: 90%;
+    margin: 0 auto;
+    height: 35px;
+    display: -webkit-flex;
+    border: 1px solid #8d9394;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+.content-form .text{
+    -webkit-flex: 1;
+    outline: none;
+    padding-left: 10px;
+    font-size: 1.5rem;
+    border: 0;
+}
+.content-form .button{
+    display: none;
+    width: 75px;
+    margin-left: -1px;
+    border: 0;
+    border-left: 1px solid #8d9394;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+}
+.microphone{
+    text-decoration: none;
+    color: #000;
+    line-height: 35px;
+    padding-right: 5px;
+    padding-left: 1px;
+    font-size: 20px;
+}
+.camera{
+    text-decoration: none;
+    color: #000;
+    line-height: 35px;
+    padding-right: 5px;
+    padding-left: 1px;
+    font-size: 20px;
+    width: 35px;
+    background: url(border.png) no-repeat 0 5px;
+}
+
+/*搜索框下的导航部分*/
+
+
+.nav{
+    margin-top: 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    display: -webkit-flex;
+}
+.nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #3f3f3f;
+    font-size: 1.5rem;
+    padding-left: 2%;
+    padding-right: 2%;
+    -webkit-flex: 1;
+}
+.nav span{
+    display: block;
+    margin-bottom: 4px;
+}
+
+
+.card{
+    background-color: #f6f6f6;
+    padding-top: 13px;
+    margin-top: 20px;
+    padding-bottom: 15px;
+}
+.commond-web{
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid #d9dde2;
+    height: 105px;
+    background-color: #fff;
+    -webkit-box-shadow: 1px 1px 2px #d3d3d3;
+}
+.cmweb-header {
+    height: 35px;
+    font-size: 1.8rem;
+}
+.cmweb-header p{
+    display: inline-block;
+    font-weight: 400;
+    line-height: 35px;
+    margin-left: 10px;
+    color: #cccbce;
+}
+.cmweb-more{
+    text-decoration: none;
+    color: #cccbce;
+    line-height: 35px;
+    position: absolute;
+    right: 8%;
+}
+.cmweb-content a{
+    text-decoration: none;
+    color: #3f3f3f;
+    font-size: 1.5rem;
+    display: inline-block;
+    height: 35px;
+    text-align: center;
+    width: 25%;
+    float: left;
+    line-height: 35px;
+}
+.hot-news{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #d9dde2;
+    background-color: #fff;
+    margin-top: 10px;
+    height: 140px;
+    -webkit-box-shadow: 1px 1px 2px #d3d3d3;
+}
+.hn-header {
+    height: 35px;
+    font-size: 1.8rem;
+}
+.hn-header p{
+    display: inline-block;
+    font-weight: 400;
+    line-height: 35px;
+    margin-left: 10px;
+    color: #cccbce;
+}
+.hn-more{
+    text-decoration: none;
+    color: #cccbce;
+    line-height: 35px;
+    position: absolute;
+    right: 8%;
+}
+.hn-switch{
+    text-decoration: none;
+    line-height: 35px;
+    position: absolute;
+    right: 30%;
+    color: #3f3f3f;
+}
+.hn-frame{
+    width: 95%;
+    margin: 0 auto;
+}
+.hn-content a{
+    text-decoration: none;
+    color: #3f3f3f;
+    font-size: 1.5rem;
+    display: inline-block;
+    height: 35px;
+    width: 50%;
+    float: left;
+    line-height: 35px;
+    overflow: hidden;
+}
+.near-service{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #d9dde2;
+    background-color: #fff;
+    margin-top: 10px;
+    -webkit-box-shadow: 1px 1px 2px #d3d3d3;
+}
+.ns-header {
+    height: 35px;
+    font-size: 1.8rem;
+}
+.ns-header p{
+    display: inline-block;
+    font-weight: 400;
+    line-height: 35px;
+    margin-left: 10px;
+    color: #cccbce;
+}
+.ns-more{
+    text-decoration: none;
+    color: #cccbce;
+    line-height: 35px;
+    position: absolute;
+    right: 8%;
+}
+.sort{
+    width: 100%;
+    height: 140px;
+    margin-top: 25px;
+    margin-bottom: 22px;
+}
+.sort-first,.sort-second{
+    width: 100%;
+    height: 70px;
+    display: -webkit-flex;
+}
+.sort-second{
+    margin-top: 15px;
+}
+.sort .title{
+    margin-top: 11px;
+    width: 50px;
+    height: 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title h1{
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+.job-search{
+    width: 50px;
+    height: 66px;
+    float: left;
+    margin-left: 8%;
+    margin-right: 7%;
+    margin-bottom: 25px;
+    -webkit-flex: 1;
+}
+.near-job{
+    width: 50px;
+    height: 66px;
+    float: left;
+    margin-right: 7%;
+    margin-bottom: 25px;
+    -webkit-flex: 1;
+}
+.apply-job{
+    width: 50px;
+    height: 66px;
+    float: left;
+    margin-right: 7%;
+    margin-bottom: 25px;
+    -webkit-flex: 1;
+}
+.company-invitation{
+    width: 50px;
+    height: 66px;
+    float: left;
+    margin-right: 8%;
+    margin-bottom: 25px;
+    -webkit-flex: 1;
+}
+.my-resume{
+    width: 50px;
+    height: 66px;
+    float: left;
+    margin-left: 8%;
+    margin-right: 7%;
+    margin-bottom: 25px;
+    -webkit-flex: 1;
+}
+.recruitment{
+    width: 50px;
+    height: 66px;
+    float: left;
+    margin-right: 7%;
+    margin-bottom: 25px;
+    -webkit-flex: 1;
+}
+.salary{
+    width: 50px;
+    height: 66px;
+    float: left;
+    margin-right: 7%;
+    margin-bottom: 25px;
+    -webkit-flex: 1;
+}
+.more{
+    width: 50px;
+    height: 66px;
+    float: left;
+    margin-right: 8%;
+    margin-bottom: 25px;
+    -webkit-flex: 1;
+}
+.sort-image{
+    width: 45px;
+    height: 40px;
+    margin: 0 auto;
+}
+.sort-image a{
+    width: 45px;
+    height: 40px;
+    display: block;
+}
+.job-search a{
+    background: url(sprite.png) no-repeat -8px -579px;
+}
+.near-job a{
+    background: url(sprite.png) no-repeat -8px -530px;
+}
+.apply-job a{
+    background: url(sprite.png) no-repeat -8px -481px;
+}
+.company-invitation a{
+    background: url(sprite.png) no-repeat -8px -432px
+}
+.my-resume a{
+    background: url(sprite.png) no-repeat -8px -235px
+}
+.recruitment a{
+    background: url(sprite.png) no-repeat -8px -383px;
+}
+.salary a{
+    background: url(sprite.png) no-repeat -8px -334px;
+}
+.more a{
+    background: url(sprite.png) no-repeat -8px -285px;
+}
+
+
+
+
+
+
+
+.footer{
+    text-align: center;
+    margin-top: 15px;
+}
+.foot-copyright{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    color: #3f3f3f;
+}
+.foot-copyright a{
+    display: none;
+}
+
+
+a:hover,a:active{
+    color: #808080;
+}
