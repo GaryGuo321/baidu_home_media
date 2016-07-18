@@ -151,7 +151,7 @@ html{
     padding-left: 1px;
     font-size: 20px;
     width: 35px;
-    background: url(border.png) no-repeat 0 5px;
+    background: url(../image/border.png) no-repeat 0 5px;
 }
 
 /*搜索框下的导航部分*/
@@ -404,28 +404,28 @@ html{
     display: block;
 }
 .job-search a{
-    background: url(sprite.png) no-repeat -8px -579px;
+    background: url(../image/sprite.png) no-repeat -8px -579px;
 }
 .near-job a{
-    background: url(sprite.png) no-repeat -8px -530px;
+    background: url(../image/sprite.png) no-repeat -8px -530px;
 }
 .apply-job a{
-    background: url(sprite.png) no-repeat -8px -481px;
+    background: url(../image/sprite.png) no-repeat -8px -481px;
 }
 .company-invitation a{
-    background: url(sprite.png) no-repeat -8px -432px
+    background: url(../image/sprite.png) no-repeat -8px -432px
 }
 .my-resume a{
-    background: url(sprite.png) no-repeat -8px -235px
+    background: url(../image/sprite.png) no-repeat -8px -235px
 }
 .recruitment a{
-    background: url(sprite.png) no-repeat -8px -383px;
+    background: url(../image/sprite.png) no-repeat -8px -383px;
 }
 .salary a{
-    background: url(sprite.png) no-repeat -8px -334px;
+    background: url(../image/sprite.png) no-repeat -8px -334px;
 }
 .more a{
-    background: url(sprite.png) no-repeat -8px -285px;
+    background: url(../image/sprite.png) no-repeat -8px -285px;
 }
 
 
